@@ -43,19 +43,19 @@ input:focus,
   box-shadow: none;
 }
 a {
-  color: #000;
+  color: rgb(53, 53, 53);
 }
 iframe {
   border: 0;
   outline: none;
 }
 ::-moz-selection {
-  background: #000;
+  background: rgb(53, 53, 53);
   text-shadow: none;
   color: #fff;
 }
 ::selection {
-  background: #000;
+  background: rgb(53, 53, 53);
   text-shadow: none;
   color: #fff;
 }
@@ -82,7 +82,7 @@ textarea:-webkit-autofill,
 select:-webkit-autofill {
   background-color: transparent;
   background-image: none;
-  color: #000;
+  color: rgb(53, 53, 53);
 }
 /* 1.2 Typography */
 h1,
@@ -130,7 +130,7 @@ img {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 3px;
-  color: #000;
+  color: rgb(53, 53, 53);
   display: flex;
   align-items: center;
 }
@@ -140,7 +140,7 @@ img {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #000;
+  background-color: rgb(53, 53, 53);
   border-radius: 4px;
   color: #fff;
   font-size: 22px;
@@ -148,8 +148,18 @@ img {
   text-align: center;
   margin-right: 12px;
 }
+
+.ds-logo figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
 .ds-logo:hover {
-  color: #000;
+  color: rgb(54, 54, 54);
 }
 
 .ds-social {
@@ -177,7 +187,7 @@ img {
   font-size: 16px;
 }
 .ds-social li a:hover {
-  background-color: #000;
+  background-color: rgb(53, 53, 53);
   color: #fff;
 }
 /*-----------------------------------------------------------------
@@ -199,7 +209,7 @@ img {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
-  color: #000;
+  color: rgb(53, 53, 53);
 }
 .ds-numbervalulist {
   list-style: none;
@@ -236,7 +246,7 @@ img {
 .ds-heading {
   display: inline-block;
   font-weight: 700;
-  color: #000;
+  color: rgb(53, 53, 53);
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
@@ -377,9 +387,10 @@ span.ds-department {
 .ds-work-list section {
   padding-top: 20px;
   padding-right: 120px;
+  margin-bottom: 40px;
 }
 .ds-work-tilte {
-  color: #000;
+  color: rgb(53, 53, 53);
   font-size: 30px;
   line-height: 36px;
   font-weight: 600;
@@ -389,6 +400,7 @@ span.ds-department {
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 80px;
 }
 .ds-work-list .ds-button {
   margin-top: 20px;
@@ -400,14 +412,14 @@ span.ds-department {
 }
 .ds-work-det-title {
   font-weight: 600;
-  color: #000;
+  color: rgb(53, 53, 53);
   font-size: 48px;
   margin-bottom: 20px;
 }
 .ds-work-det-dep {
   display: block;
   font-weight: 600;
-  color: #000;
+  color: rgb(53, 53, 53);
   font-size: 18px;
 }
 .ds-work-content-sec {
@@ -449,7 +461,7 @@ span.ds-department {
   7. >>> Footer Style
 ----------------------------------------------------------------*/
 .ds-footer {
-  background-color: #000;
+  background-color: rgb(53, 53, 53);
   padding: 120px 0;
 }
 .ds-footer section {
