@@ -274,6 +274,14 @@ img {
   border: 2px solid #f26464;
   border-radius: 60px;
 }
+.ds-twobutton-left {
+  margin-right: 10px;
+}
+
+.ds-twobutton-right {
+  margin-left: 10px;
+}
+
 .ds-button:hover {
   background-color: #f26464;
   color: #fff;
