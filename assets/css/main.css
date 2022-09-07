@@ -645,6 +645,7 @@ span.ds-department {
   position: relative;
   display: inline-block;
   margin: 0 5px;
+  flex-wrap: wrap;
 }
 
 .switch > span {
