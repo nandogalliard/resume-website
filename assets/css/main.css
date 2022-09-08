@@ -211,6 +211,11 @@ img {
   line-height: 60px;
   color: rgb(53, 53, 53);
 }
+
+.ds-banner section h1 em {
+  color: #f26464;
+  font-style: normal;
+}
 .ds-numbervalulist {
   list-style: none;
   display: flex;
@@ -255,13 +260,17 @@ img {
   margin-bottom: 23px;
 }
 .ds-about-section p {
+  text-align: justify;
   color: #373737;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
   margin-bottom: 60px;
 }
-
+b.thick{
+  font-weight: 650;
+  /* color: #ff0000; */
+}
 .ds-button {
   display: inline-block;
   text-transform: uppercase;
@@ -285,6 +294,11 @@ img {
 .ds-button-margin-bottom {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.ds-button-from-bottom {
+  position:absolute;
+  bottom: 0;
 }
 
 .ds-button:hover {
