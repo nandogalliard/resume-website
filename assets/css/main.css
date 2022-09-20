@@ -424,6 +424,7 @@ span.ds-department {
   margin-bottom: 30px;
 }
 .ds-work-list p {
+  text-align: justify;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
