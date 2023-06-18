@@ -20,7 +20,8 @@ html {
 body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #eff1f5;
+  /*background-color: #fff;*/
   font-weight: 400;
   font-style: normal;
   color: #373737;
@@ -179,7 +180,7 @@ img {
   color: #fff;
   width: 24px;
   height: 24px;
-  background-color: #f26464;
+  background-color: #8839f0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,7 +214,7 @@ img {
 }
 
 .ds-banner section h1 em {
-  color: #f26464;
+  color: #8839f0;
   font-style: normal;
 }
 .ds-numbervalulist {
@@ -233,7 +234,7 @@ img {
 }
 .ds-numbervalulist strong {
   display: block;
-  color: #f26464;
+  color: #8839f0;
   font-size: 36px;
   font-weight: 800;
 }
@@ -255,7 +256,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
-  border-bottom: 3px solid #f26464;
+  border-bottom: 3px solid #8839f0;
   padding-bottom: 7px;
   margin-bottom: 23px;
 }
@@ -278,9 +279,9 @@ b.thick{
   line-height: 13px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: #f26464;
+  color: #8839f0;
   padding: 17px 30px;
-  border: 2px solid #f26464;
+  border: 2px solid #8839f0;
   border-radius: 60px;
 }
 .ds-twobutton-left {
@@ -302,7 +303,7 @@ b.thick{
 }
 
 .ds-button:hover {
-  background-color: #f26464;
+  background-color: #8839f0;
   color: #fff;
 }
 .ds-arrow-button i {
@@ -524,7 +525,7 @@ span.ds-department {
   color: rgba(255, 255, 255, 0.5);
 }
 .ds-copyright a:hover {
-  color: #f26464;
+  color: #8839f0;
 }
 
 /*-------------------------------------------------------------------------------
@@ -685,7 +686,7 @@ span.ds-department {
 }
 
 input.check-toggle-round-flat:checked ~ .off {
-  color: #f26464;
+  color: #8839f0;
 }
 
 input.check-toggle-round-flat:checked ~ .on {
@@ -696,7 +697,7 @@ input.check-toggle-round-flat:checked ~ .on {
 .switch > span.on {
   left: 0;
   padding-left: 2px;
-  color: #f26464;
+  color: #8839f0;
   position: absolute;
   text-align: center;
   width: 53%;
@@ -739,7 +740,7 @@ input.check-toggle-round-flat + label {
   padding: 2px;
   width: 105px;
   height: 35px;
-  background-color: #f26464;
+  background-color: #8839f0;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
   -ms-border-radius: 60px;
@@ -757,7 +758,7 @@ input.check-toggle-round-flat + label:before {
   left: 2px;
   bottom: 2px;
   right: 2px;
-  background-color: #f26464;
+  background-color: #8839f0;
   -webkit-
 
   -moz-border-radius: 60px;
@@ -801,7 +802,7 @@ input.check-toggle-round-flat:checked + label:after {
   top: -9000px;
 }
 input[type="checkbox"].toggle ~ label {
-color: #f26464;} */
+color: #8839f0;} */
 
 /* input.check-toggle-round-flat + label .contentenglish,
 input.check-toggle-round-flat:checked + label .contentdeutsch {
